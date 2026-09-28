@@ -34,7 +34,8 @@ const ai = genkit({
       apiKey: process.env.GEMINI_API_KEY,
     }),
   ],
-  model: googleAI.model("gemini-3.5-flash-lite"),
+  
+  model: googleAI.model("gemini-2.0-flash"),
 });
 
 // Travel itinerary flow
